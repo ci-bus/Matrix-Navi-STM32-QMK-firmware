@@ -17,6 +17,35 @@
     "rows": ["A3", "B1", "B0", "A1", "A2"],
     "cols": ["C3", "C5", "C4", "C0", "C12", "C11", "C10", "C13", "C14", "C15", "C9", "C8", "C6", "C7", "C1", "C2"]
   },
+  "features": {
+    "extrakey": true,
+    "rgblight": true,
+    "mousekey": true,
+    "nkro": true
+  },
+  "rgblight": {
+    "driver": "ws2812",
+    "led_count": 3,
+    "hue_steps": 30,
+    "saturation_steps": 5,
+    "brightness_steps": 5,
+    "max_brightness": 255,
+    "animations": {
+      "breathing": true,
+      "rainbow_mood": true,
+      "rainbow_swirl": true,
+      "snake": true,
+      "knight": true,
+      "christmas": true,
+      "static_gradient": true,
+      "rgb_test": true,
+      "alternating": true,
+      "twinkle": true
+    }
+  },
+  "ws2812": {
+    "pin": "B6"
+  },
   "layouts": {
     "LAYOUT": {
       "layout": [
